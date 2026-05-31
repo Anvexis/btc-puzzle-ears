@@ -36,7 +36,9 @@ cd btc-puzzle-ears
 make
 
 🚀 Run Solver
+./puzzle71_solver
 
+```
 # 🔐 EARS Solver v3.0 | Bitcoin Puzzle #71 Range Search
 
 > High-performance early-abort brute-force solver for Bitcoin address ranges using `libsecp256k1` and OpenSSL.
@@ -68,6 +70,7 @@ make
 # 3. Run
 ./puzzle71_solver
 
+```
 📁 Output
 FOUNDKEY.TXT: Automatically created if a match occurs. Contains hex private key and verification.
 Console: Live throughput, abort statistics, and elapsed time.
